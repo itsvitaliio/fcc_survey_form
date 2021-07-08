@@ -1,0 +1,111 @@
+body {
+    font-family: 'Poppins';
+    line-height: 1.4;
+    background-color: pink;
+    font-size: 2.5vh;
+    width: 100vw;
+    margin: auto; 
+    overflow-x: hidden;
+    padding-bottom: 10%;
+}
+form {
+    display: block;
+    background-color: white;
+    padding: 2.5rem 2.5rem;
+    border-radius: 6vh;
+    width: 80vw;
+    margin: auto; 
+}
+
+#title, #description{
+    color: white;
+    width: 75vw;
+    margin: 2.5% auto;
+}
+#title{
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.form-inputs {
+    display: block; 
+    width: 95%;
+    line-height: 6vh;
+    font-size: 2.5vh;
+    padding: 0 2.5%;
+    margin: auto;
+    border: 1px solid #ced4da;
+    border-radius: 4vh;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+}
+
+
+
+#dropdown {
+    display: block; 
+    width: 95.5%;
+    font-size: inherit;
+    padding: 0.25rem 0.75rem;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+.submit-button {
+    display: block;
+    width: 90%;
+    height: 6vh;
+    line-height: 6vh;
+    background: linear-gradient(45deg, rgba(0,0,128,1) 0%, rgba(199,150,166,1) 100%);
+    border: none;
+    margin: auto;
+    text-align: center;
+    color: white;
+    border-radius: 6vh;
+    cursor: pointer;
+    transition: .3s;
+}
+.submit-button:hover {
+    transform: scale(0.9);
+}
+input[type="checkbox"], input[type="radio"]{
+    width: 1.5vh;
+    height: 1.5vh;
+    line-height: 2vh;
+}
+#textarea {
+    width: 100%;
+    font-size: inherit;
+    border: pink 0.1vh solid;
+    border-radius: 4vh;
+    padding: 1.5% 0;
+    margin: auto;
+    text-align: center;
+    outline: none;
+    resize: none;
+}
+@media screen and (orientation: portrait) {
+    .submit-button {
+        font-size: 2vh;
+    }
+    #textarea {
+        margin: 2.5% auto;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 1vh;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: inherit;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: navy;
+    border-radius: 4vh;
+  }
